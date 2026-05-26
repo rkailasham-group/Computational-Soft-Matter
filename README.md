@@ -19,12 +19,13 @@ against analytical theory.
 ---
 
 ## Repository Structure
-Computational-Soft-Matter/
-└── Prince/
-└── Active-Brownian-Particles/
-├── 2D_Disk/          # 2D reciprocal swimmer simulations
-├── 3D_Single_Sphere/ # 3D single ABP with quaternion rotations
-└── (upcoming) 3D_Multiple_Spheres/  # MIPS in dense swarms
+
+| Folder | Description |
+|--------|-------------|
+| `Prince/Active-Brownian-Particles/2D_Disk/` | 2D reciprocal swimmer simulations |
+| `Prince/Active-Brownian-Particles/3D_Single_Sphere/` | 3D single ABP with quaternion rotations |
+| `Prince/Active-Brownian-Particles/3D_Multiple_Spheres/` | *(upcoming)* MIPS in dense swarms |
+
 ---
 
 ## Physics Background
@@ -42,7 +43,9 @@ still show **massively enhanced long-time diffusion** due to the interplay of
 oscillation with thermal rotational noise.
 
 ### Key Formula (effective diffusivity)
+```math
 D_eff = (1/6) * (U₀²/2) * Dr / (Dr² + ω²)
+```
 The `1/2` factor arises from the time-average of `cos²(ωt)` — a critical
 distinction between steady and reciprocal swimmers validated here numerically.
 
