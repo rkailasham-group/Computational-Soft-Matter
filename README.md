@@ -20,11 +20,10 @@ against analytical theory.
 
 ## Repository Structure
 
-| Folder | Description |
-|--------|-------------|
-| `Prince/Active-Brownian-Particles/2D_Disk/` | 2D reciprocal swimmer simulations |
-| `Prince/Active-Brownian-Particles/3D_Single_Sphere/` | 3D single ABP with quaternion rotations |
-| `Prince/Active-Brownian-Particles/3D_Multiple_Spheres/` | *(upcoming)* MIPS in dense swarms |
+**Prince / Active-Brownian-Particles /**
+- 📁 `2D_Disk` — 2D reciprocal swimmer simulations
+- 📁 `3D_Single_Sphere` — 3D single ABP with quaternion rotations
+- 📁 `3D_Multiple_Spheres` — *(upcoming)* MIPS in dense swarms
 
 ---
 
